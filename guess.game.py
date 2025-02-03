@@ -1,7 +1,7 @@
 secret_word = "hey"
 guess = ""
 num_of_try = 0
-
+     
 try:
  while guess != secret_word:
     guess = input("Enter guess: ")
