@@ -1,19 +1,19 @@
-num1= input("Eneter a number: ")
-num2= input("Entor another number: ")
-operation=input("Enter operation: ")
+num1= float(input("Enter first number: "))
+operator=input("Enter operator: ")
+num2= float(input("Enter second number: "))
 
-if operation=="+":
- result = float(num1) + float(num2)
+if operator=="+":
+ result = num1 + num2
 
-elif operation=="*":
- result = float(num1) * float(num2)
+elif operator=="*":
+ result = num1 * num2
 
-elif operation=="-":
- result = float(num1) - float(num2)
+elif operator=="-":
+ result = num1 - num2
 
-elif operation=="/":
- result = float(num1) / float(num2)
+elif operator=="/":
+ result = num1 / num2
 
 else:
- result = "Invalid operation"
+ result = "Invalid operator"
 print(result)
