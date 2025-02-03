@@ -2,7 +2,8 @@ secret_word = "hey"
 guess = ""
 num_of_try = 0
 
-while guess != secret_word:
+try:
+ while guess != secret_word:
     guess = input("Enter guess: ")
     
     if guess == secret_word:
@@ -18,3 +19,6 @@ while guess != secret_word:
         else:
             print("You lose!")
             break
+
+except:
+   print("Error")
