@@ -8,4 +8,4 @@ def translate(text):
             result=result+letter
     return result
 
-print(translate(input("Input a text ")))
+print(translate(input("Input a text "))) 
